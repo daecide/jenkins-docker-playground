@@ -1,0 +1,10 @@
+{
+	"name": "Jenkins Playground",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "jenkins",
+	"workspaceFolder": "/var/jenkins_home",
+	"extensions": [
+		"secanis.jenkinsfile-support"
+	],
+	"shutdownAction": "stopCompose"
+}
